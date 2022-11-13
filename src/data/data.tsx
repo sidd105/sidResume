@@ -44,7 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Siddharth Pachori',
-  description: "",
+  description: "Resume/Portfolio Siddharth Pachori. Laying out experience, skills and intrests in this layout. Companies worked Wipro Technologies, Cybage Software and Cimpress India",
 };
 
 /**
