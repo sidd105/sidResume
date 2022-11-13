@@ -13,17 +13,6 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -32,7 +21,6 @@ import {
   ContactType,
   Hero,
   HomepageMeta,
-  PortfolioItem,
   SkillGroup,
   Social,
   TestimonialSection,
@@ -187,78 +175,6 @@ export const skills: SkillGroup[] = [
 ];
 
 /**
- * Portfolio section
- */
-export const portfolioItems: PortfolioItem[] = [
-  {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
-];
-
-/**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
@@ -266,6 +182,9 @@ export const education: TimelineItem[] = [
     date: 'April 2021',
     location: 'Welingkar Institute of Management',
     title: 'Masters in Project Management',
+    logo: (
+      <a href="" rel="noopener noreferrer" target="_blank"><img alt="We School" height="80" src="/WeSchool-logo.jpg" width="80"/></a>
+    ),
     content: <p></p>,
   },
   {
@@ -273,6 +192,9 @@ export const education: TimelineItem[] = [
     location: 'Narsee Monjee College of Commerce and Economics(Mumbai University)',
     title: 'Bachelors in Information Technology',
     content: <p></p>,
+    logo: (
+      <a href="" rel="noopener noreferrer" target="_blank"><img alt="Mumbai University" height="80" src="/universityLogo.jpg" width="80"/></a>
+    ),
   },
 ];
 
@@ -281,28 +203,28 @@ export const experience: TimelineItem[] = [
     date: 'March 2021 - Present',
     location: 'Cimpress India',
     title: 'Senior Software Engineer II',
-    content: (
-      <p>
-      </p>
+    logo : (
+      <a href="https://www.pens.com" rel="noopener noreferrer" target="_blank"><img alt="National Pen(pens.com)" height="80" src="/nationalPen.jpg" width="80"/></a>
     ),
+    content: (<></>),
   },
   {
     date: 'March 2019 - March 2021',
     location: 'Cybage Software Pune',
     title: 'Senior Software Engineer',
-    content: (
-      <p>
-      </p>
+    logo: (
+      <a href="https://www.fictiv.com" rel="noopener noreferrer" target="_blank"><img alt="Fictiv" height="80" src="/fictiv.jpg" width="80"></img></a>
     ),
+    content: (<></>)
   },
   {
     date: 'Sept 2015 - February 2019',
     location: 'Wipro Technologies Pune',
     title: 'Software Engineer',
-    content: (
-      <p>
-      </p>
+    logo: (
+      <img alt="credit suisse" height="80" src="/credit_suisse.jpg" width="80"></img>
     ),
+    content: (<></>),
   },
 ];
 
