@@ -202,7 +202,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'March 2021 - Present',
     location: 'Cimpress India',
-    title: 'Senior Software Engineer II',
+    title: 'Sr. Software Engineer II',
     logo : (
       <a href="https://www.pens.com" rel="noopener noreferrer" target="_blank"><img alt="National Pen(pens.com)" height="80" src="/nationalPen.jpg" width="80"/></a>
     ),
@@ -211,7 +211,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'March 2019 - March 2021',
     location: 'Cybage Software Pune',
-    title: 'Senior Software Engineer',
+    title: 'Sr. Software Engineer',
     logo: (
       <a href="https://www.fictiv.com" rel="noopener noreferrer" target="_blank"><img alt="Fictiv" height="80" src="/fictiv.jpg" width="80"></img></a>
     ),
