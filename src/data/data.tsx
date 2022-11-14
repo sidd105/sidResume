@@ -182,19 +182,19 @@ export const education: TimelineItem[] = [
     date: 'April 2021',
     location: 'Welingkar Institute of Management',
     title: 'Masters in Project Management',
-    logo: (
-      <a href="" rel="noopener noreferrer" target="_blank"><img alt="We School" height="80" src="/WeSchool-logo.jpg" width="80"/></a>
-    ),
-    content: <p></p>,
+    // logo: (
+    //   <a href="" rel="noopener noreferrer" target="_blank"><img alt="We School" height="80px" src="/WeSchool-logo.jpg" width="80px"/></a>
+    // ),
+    content: (<></>),
   },
   {
     date: 'June 2015',
     location: 'Narsee Monjee College of Commerce and Economics(Mumbai University)',
     title: 'Bachelors in Information Technology',
-    content: <p></p>,
-    logo: (
-      <a href="" rel="noopener noreferrer" target="_blank"><img alt="Mumbai University" height="80" src="/universityLogo.jpg" width="80"/></a>
-    ),
+    content: (<></>),
+    // logo: (
+    //   <a href="" rel="noopener noreferrer" target="_blank"><img alt="Mumbai University" height="80px" src="/mumbai_university_logo.jpg" width="80px"/></a>
+    // ),
   },
 ];
 
