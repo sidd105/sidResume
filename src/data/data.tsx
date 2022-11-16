@@ -73,7 +73,7 @@ export const heroData: Hero = {
       Icon: DownloadIcon,
     },
     {
-      href: `#${SectionId.Contact}`,
+      href: `mailto:sidpachori@gmail.com?subject=Hey%20i%27d%20like%20to%20connect%20with%20you%20for%20an%20opportunity%20or%20a%20Coffee`,
       text: 'Contact',
       primary: false,
     },
@@ -101,35 +101,18 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
+        name: 'React + Redux + (SSR or CSR)',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'BEM modeling',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'GraphQL with NodeJS and React-Apollo',
         level: 6,
       },
     ],
@@ -142,16 +125,20 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
+        name: 'AWS lambdas and Microservices Development',
+        level: 8,
+      },
+      {
+        name: 'AWS lambdas',
+        level: 8,
+      },
+      {
         name: 'C# .NET',
         level: 7,
       },
       {
         name: 'Java',
         level: 7,
-      },
-      {
-        name: 'Golang',
-        level: 4,
       },
     ],
   },
@@ -160,15 +147,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
+        level: 6,
       },
       {
         name: 'Swift',
         level: 3,
+      },
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'Hindi',
+        level: 10,
+      },
+      {
+        name: 'Marathi',
+        level: 7,
+      },
+      {
+        name: 'Gujarati',
+        level: 7,
       },
     ],
   },
