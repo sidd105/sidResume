@@ -9,7 +9,6 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header-background.webp';
@@ -210,7 +209,8 @@ export const experience: TimelineItem[] = [
     logo : (
       <a href="https://www.pens.com" rel="noopener noreferrer" target="_blank"><img alt="National Pen(pens.com)" height="80" src="/nationalPen.jpg" width="80"/></a>
     ),
-    content: (<></>),
+    content: (<>Conceptualizing, Developing, Building and Maintaining several 
+      payment interfaces to be able to streamline way to take payments from the customers</>),
   },
   {
     date: 'March 2019 - March 2021',
@@ -275,11 +275,6 @@ export const contact: ContactSection = {
       href: 'https://goo.gl/maps/RsTDpwkZpZdc81BL9',
     },
     {
-      type: ContactType.Instagram,
-      text: '@whoa_sid',
-      href: 'https://www.instagram.com/whoa_sid/',
-    },
-    {
       type: ContactType.Github,
       text: 'sidd105',
       href: 'https://github.com/sidd105',
@@ -293,6 +288,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/sidd105'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/7625738/siddharth-pachori'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/siddharth-pachori-07a35363/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/whoa_sid/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/siddharth-pachori-07a35363/'}
 ];
