@@ -207,9 +207,9 @@ export const experience: TimelineItem[] = [
     location: 'Cimpress India',
     title: 'Sr. Software Engineer II',
     logo : (
-      <a href="https://www.pens.com" rel="noopener noreferrer" target="_blank"><img alt="National Pen(pens.com)" height="80" src="/NationalPen.jpg" width="80"/></a>
+      <a href="https://www.pens.com" rel="noopener noreferrer" target="_blank"><img alt="National Pen(pens.com)" height="80" src="/national_pen.jpg" width="80"/></a>
     ),
-    content: (<></>),
+    content: (<>Leading a team to develop multiple customer facing payments portals</>),
   },
   {
     date: 'March 2019 - March 2021',
