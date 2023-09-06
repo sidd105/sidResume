@@ -205,7 +205,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'March 2021 - Present',
     location: 'Cimpress India',
-    title: 'Sr. Software Engineer II',
+    title: 'Lead Software Engineer',
     logo : (
       <a href="https://www.pens.com" rel="noopener noreferrer" target="_blank"><img alt="National Pen(pens.com)" height="80" src="/national_pen.jpg" width="80"/></a>
     ),
