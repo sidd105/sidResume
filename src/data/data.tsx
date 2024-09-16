@@ -87,7 +87,7 @@ export const aboutData: About = {
   description: `I'm enthusiastic in building things which improves software quality or revamping them to be able to deliever a good value`,
   aboutItems: [
     {label: 'Location', text: 'Mumbai, India', Icon: MapIcon},
-    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Guitar, Gaming', Icon: SparklesIcon},
     {label: 'Study', text: 'Mumbai University', Icon: AcademicCapIcon},
